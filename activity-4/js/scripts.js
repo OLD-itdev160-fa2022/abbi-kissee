@@ -8,7 +8,7 @@ greetingEl.textContent = greeting;
 
 var price = 20,
     studentDiscount = .10,
-    sutdentPrice = price - (price * studentDiscount),
+    studentPrice = price - (price * studentDiscount),
     priceEl = document.getElementById('price'),
     sutdentPriceEl = document.getElementById('student-price');
 
